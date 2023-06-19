@@ -1,0 +1,26 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "plugin:vue/vue3-strongly-recommended",
+        "@vue/eslint-config-standard-with-typescript"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "plugins": [
+        "vue"
+    ],
+    "rules": {
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": "error",
+        "no-void": "off",
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "@typescript-eslint/require-array-sort-compare": "off",
+        "no-use-before-define": "off",
+        "vue/multi-word-component-names": "off"
+    }
+}

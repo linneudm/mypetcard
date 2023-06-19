@@ -1,0 +1,11 @@
+:root{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    display: flex;
+}
+.input-text{
+    padding: .8em;
+    border: none;
+    font-size: 14px;
+}
